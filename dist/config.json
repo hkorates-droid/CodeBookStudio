@@ -1,0 +1,10 @@
+{
+    "language": "Python",
+    "font_family": "Consolas",
+    "font_size": 9,
+    "padding": 40,
+    "table_width": 140,
+    "theme": "Yayinci Dostu",
+    "show_line_numbers": true,
+    "use_zebra": true
+}

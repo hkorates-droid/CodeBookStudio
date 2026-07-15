@@ -1,0 +1,11 @@
+# Python bytecode ve geçici dosyalar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Sadece PyInstaller'ın ara derleme klasörünü ve spec dosyasını engelle
+build/
+*.spec
