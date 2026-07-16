@@ -26,7 +26,7 @@
 
 #### Yöntem 2: Python ile Çalıştırma (Geliştiriciler İçin)
 Projeyi yerelde çalıştırmak veya geliştirmek isterseniz:  
-# Masaüstünüzde yeni bir klasör oluşturun
+Masaüstünüzde yeni bir klasör oluşturun
 ```bash
 mkdir Test_CodeBook
 ````
