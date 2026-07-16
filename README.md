@@ -1,11 +1,13 @@
-### 🇹🇷  💻 CodeBook Studio
+# 💻 CodeBook Studio
 
 **CodeBook Studio**, özellikle teknik kitap yazarları, akademisyenler ve öğretmenler için tasarlanmış; kaynak kodları Microsoft Word ve Adobe InDesign gibi kelime işlemcilere biçimlendirmesi korunmuş (RTF) tablolar halinde aktaran gelişmiş bir masaüstü kod biçimlendirme aracıdır.
 
 ---
-AÇIKLAMA
+
+## 🇹🇷 Türkçe Açıklama
+
 ### 🌟 Öne Çıkan Özellikler
-* **Zengin RTF Tablo Çıktısı:** Kodlarınızı satır numaraları, zebra satır renklendirmesi ve özelleştirilebilir kenar boşlukları (padding) ile doğrudan Word/InDesign uyumlu RTF formatına dönüştürür.
+* **Zengin RTF Tablo Çıktısı:** Kodlerinizi satır numaraları, zebra satır renklendirmesi ve özelleştirilebilir kenar boşlukları (padding) ile doğrudan Word/InDesign uyumlu RTF formatına dönüştürür.
 * **Akıllı Dil Algılama:** Yazdığınız kodu analiz ederek hangi programlama diline ait olduğunu otomatik tespit eder.
 * **Özel Temalar:** Ders kitapları ve teknik yayın standartlarına uygun, göz yormayan özel renk temaları (Örn: *Maarif Pastel*).
 * **Kolay Kurulum:** Kodlama bilmeyen kullanıcılar için derlenmiş `.exe` sürümüyle doğrudan çalıştırılabilir.
@@ -31,21 +33,18 @@ Projeyi yerelde çalıştırmak veya geliştirmek isterseniz:
 Terminale şu komutu yazıp Enter'a basın:
 ```bash
 git clone [https://github.com/hkorates-droid/CodeBookStudio.git](https://github.com/hkorates-droid/CodeBookStudio.git)
+Ardından şu komutu yazıp Enter'a basın:
 
-terminale  şu komutu yazıp entere basın
 cd CodeBookStudio
+Gerekli kütüphaneleri yüklemek için terminale şu komutu yazın:
 
-Gerekli kütüphaneleri yüklemek için terminale şu komutu yazın
 pip install -r requirements.txt
+Uygulamayı başlatın:
 
-Uygulamayı başlatın
 python main.py
-
-
-### 🇬🇧 💻 CodeBook Studio
+🇬🇧 English Description
 CodeBook Studio is an advanced desktop code formatting tool designed especially for technical book authors, academics, and teachers. It exports source code into richly formatted RTF tables that preserve styling and can be directly used in Microsoft Word and Adobe InDesign.
 
-DESCRIPTION
 🌟 Key Features
 Rich RTF Table Output: Converts your code into Word/InDesign-compatible RTF format with line numbers, zebra row coloring, and customizable padding.
 
@@ -70,24 +69,29 @@ Enter the dist folder.
 
 Double-click CodeBook Studio.exe to launch the application instantly!
 
-```markdown
-#### Method 2: Run with Python (For Developers)
+Method 2: Run with Python (For Developers)
 If you want to run or develop the project locally:
-1. Right-click on an empty space on your desktop and create a new folder named **Test_CodeBook**.
-2. Enter this new folder.
-3. Inside the folder, right-click on an empty space and select "Open PowerShell Window Here" or "Open in Terminal".
+
+Right-click on an empty space on your desktop and create a new folder named Test_CodeBook.
+
+Enter this new folder.
+
+Inside the folder, right-click on an empty space and select "Open PowerShell Window Here" or "Open in Terminal".
 
 Type the following command in the terminal and press Enter:
-```bash
+
+Bash
 git clone [https://github.com/hkorates-droid/CodeBookStudio.git](https://github.com/hkorates-droid/CodeBookStudio.git)
 
 Then type the following command and press Enter:
+
+Bash
 cd CodeBookStudio
-
 To install the required libraries, type:
+
+Bash
 pip install -r requirements.txt
-
 Finally, start the application with:
+
+Bash
 python main.py
-
-
