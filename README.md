@@ -51,7 +51,7 @@ pip install -r requirements.txt
 python main.py
 
 
-##🇬🇧 English Description
+## 🇬🇧 English Description
 🌟 Key Features
 Rich RTF Table Output: Converts your code into Word/InDesign-compatible RTF format with line numbers, zebra row coloring, and customizable padding.
 
