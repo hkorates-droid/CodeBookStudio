@@ -54,42 +54,43 @@ python main.py
 
 ## 🇬🇧 English Description
 🌟 Key Features
-Rich RTF Table Output: Converts your code into Word/InDesign-compatible RTF format with line numbers, zebra row coloring, and customizable padding.
+- **Rich RTF Table Output: Converts your code into Word/InDesign-compatible RTF format with line numbers, zebra row coloring, and customizable padding.
+- **Smart Language Detection: Automatically analyzes your code and detects the programming language.
+- **Custom Themes: Special color themes designed for textbooks and technical publications, easy on the eyes (e.g., Maarif Pastel).
+- **Easy Installation: Comes with a compiled .exe version for non-coders to run instantly.
 
-Smart Language Detection: Automatically analyzes your code and detects the programming language.
+### 🛠️ Technical Infrastructure
+- **Interface: PySide6 (Qt framework)
+- **Syntax Highlighter: Pygments library
+- **Platform: Windows (runs directly as .exe)
 
-Custom Themes: Special color themes designed for textbooks and technical publications, easy on the eyes (e.g., Maarif Pastel).
+### 🚀 Installation and Usage
+#### Method 1: Run Directly (No Compilation)
+1. Download this repository as ZIP or clone it to your computer.
+2. Enter the dist folder.
+3. Double-click **CodeBook Studio.exe** to launch the application instantly.
 
-Easy Installation: Comes with a compiled .exe version for non-coders to run instantly.
-
-🛠️ Technical Infrastructure
-Interface: PySide6 (Qt framework)
-
-Syntax Highlighter: Pygments library
-
-Platform: Windows (runs directly as .exe)
-
-🚀 Installation and Usage
-Method 1: Run Directly (No Compilation)
-Download this repository as ZIP or clone it to your computer.
-
-Enter the dist folder.
-
-Double-click CodeBook Studio.exe to launch the application instantly.
-
-Method 2: Run with Python (For Developers)
+#### Method 2: Run with Python (For Developers)
 If you want to run or develop the project locally:
-# Create a new folder on your desktop
+Create a new folder on your desktop
+```bash
 mkdir Test_CodeBook
+````
+```bash
 cd Test_CodeBook
-
-# Clone the repository
+````
+Clone the repository
+```bash
 git clone https://github.com/hkorates-droid/CodeBookStudio.git
+````
+```bash
 cd CodeBookStudio
-
-# Install required libraries
+````
+Install required libraries
+```bash
 pip install -r requirements.txt
-
-# Start the application
+````
+```bash
+Start the application
 python main.py
-
+````
