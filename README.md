@@ -30,7 +30,7 @@ Projeyi yerelde çalıştırmak veya geliştirmek isterseniz:
 # Masaüstünüzde yeni bir klasör oluşturun
 mkdir Test_CodeBook
 cd Test_CodeBook
-
+````
 # Depoyu klonlayın
 git clone https://github.com/hkorates-droid/CodeBookStudio.git
 cd CodeBookStudio
@@ -82,10 +82,4 @@ pip install -r requirements.txt
 
 # Start the application
 python main.py
-
-
-📌 Bu sürümde:  
-- Kod blokları düzgün kapatıldı.  
-- Türkçe ve İngilizce bölümler ayrı tutuldu.  
-- Satır sonları ve boşluklar eklendi.  
 
