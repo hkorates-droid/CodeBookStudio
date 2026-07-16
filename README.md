@@ -29,18 +29,18 @@ CodeBook Studio.exe dosyasına çift tıklayarak uygulamayı başlatın.
 Yöntem 2: Python ile Çalıştırma (Geliştiriciler İçin)
 Projeyi yerelde çalıştırmak veya geliştirmek isterseniz:
 
-# Masaüstünüzde yeni bir klasör oluşturun
+Masaüstünüzde yeni bir klasör oluşturun
 mkdir Test_CodeBook
 cd Test_CodeBook
 
-# Depoyu klonlayın
+Depoyu klonlayın
 git clone https://github.com/hkorates-droid/CodeBookStudio.git
 cd CodeBookStudio
 
-# Gerekli kütüphaneleri yükleyin
+Gerekli kütüphaneleri yükleyin
 pip install -r requirements.txt
 
-# Uygulamayı başlatın
+Uygulamayı başlatın
 python main.py
 
 🇬🇧 English Description
@@ -70,17 +70,17 @@ Double-click CodeBook Studio.exe to launch the application instantly.
 
 Method 2: Run with Python (For Developers)
 If you want to run or develop the project locally:
-# Create a new folder on your desktop
+Create a new folder on your desktop
 mkdir Test_CodeBook
 cd Test_CodeBook
 
-# Clone the repository
+Clone the repository
 git clone https://github.com/hkorates-droid/CodeBookStudio.git
 cd CodeBookStudio
 
-# Install required libraries
+Install required libraries
 pip install -r requirements.txt
 
-# Start the application
+Start the application
 python main.py
 
