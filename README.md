@@ -70,10 +70,6 @@ Enter the dist folder.
 
 Double-click CodeBook Studio.exe to launch the application instantly!
 
----
-
-### 🇬🇧 İngilizce Bölümündeki Method 2'yi Şununla Değiştir:
-
 ```markdown
 #### Method 2: Run with Python (For Developers)
 If you want to run or develop the project locally:
