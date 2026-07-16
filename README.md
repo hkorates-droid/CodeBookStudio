@@ -54,15 +54,15 @@ python main.py
 
 ## 🇬🇧 English Description
 🌟 Key Features
-- **Rich RTF Table Output: Converts your code into Word/InDesign-compatible RTF format with line numbers, zebra row coloring, and customizable padding.
-- **Smart Language Detection: Automatically analyzes your code and detects the programming language.
-- **Custom Themes: Special color themes designed for textbooks and technical publications, easy on the eyes (e.g., Maarif Pastel).
-- **Easy Installation: Comes with a compiled .exe version for non-coders to run instantly.
+- Rich RTF Table Output: Converts your code into Word/InDesign-compatible RTF format with line numbers, zebra row coloring, and customizable padding.
+- Smart Language Detection: Automatically analyzes your code and detects the programming language.
+- Custom Themes: Special color themes designed for textbooks and technical publications, easy on the eyes (e.g., Maarif Pastel).
+- Easy Installation: Comes with a compiled .exe version for non-coders to run instantly.
 
 ### 🛠️ Technical Infrastructure
-- **Interface: PySide6 (Qt framework)
-- **Syntax Highlighter: Pygments library
-- **Platform: Windows (runs directly as .exe)
+- Interface: PySide6 (Qt framework)
+- Syntax Highlighter: Pygments library
+- Platform: Windows (runs directly as .exe)
 
 ### 🚀 Installation and Usage
 #### Method 1: Run Directly (No Compilation)
