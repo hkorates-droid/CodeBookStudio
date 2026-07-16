@@ -26,19 +26,21 @@
 
 #### Yöntem 2: Python ile Çalıştırma (Geliştiriciler İçin)
 Projeyi yerelde çalıştırmak veya geliştirmek isterseniz:  
-```bash
 # Masaüstünüzde yeni bir klasör oluşturun
+```bash
 mkdir Test_CodeBook
+````
+```bash
 cd Test_CodeBook
 ````
-# Depoyu klonlayın
+#### Depoyu klonlayın
 git clone https://github.com/hkorates-droid/CodeBookStudio.git
 cd CodeBookStudio
 
-# Gerekli kütüphaneleri yükleyin
+#### Gerekli kütüphaneleri yükleyin
 pip install -r requirements.txt
 
-# Uygulamayı başlatın
+#### Uygulamayı başlatın
 python main.py
 
 
