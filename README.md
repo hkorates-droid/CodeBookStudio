@@ -37,16 +37,21 @@ cd Test_CodeBook
 ```bash
 git clone https://github.com/hkorates-droid/CodeBookStudio.git
 ````
-```bash cd CodeBookStudio ````
+```bash
+cd CodeBookStudio
+ ````
 
 #### Gerekli kütüphaneleri yükleyin
+```bash
 pip install -r requirements.txt
+ ````
+
 
 #### Uygulamayı başlatın
 python main.py
 
 
-🇬🇧 English Description
+##🇬🇧 English Description
 🌟 Key Features
 Rich RTF Table Output: Converts your code into Word/InDesign-compatible RTF format with line numbers, zebra row coloring, and customizable padding.
 
