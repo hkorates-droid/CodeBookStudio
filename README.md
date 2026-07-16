@@ -24,19 +24,21 @@ AÇIKLAMA
 
 #### Yöntem 2: Python ile Çalıştırma (Geliştiriciler İçin)
 Projeyi yerelde çalıştırmak veya geliştirmek isterseniz:
-1-Masaüstünüzde boş bir yere sağ tıklayın ve "Yeni Klasör" oluşturup adını Deneme_CodeBook yapın.
-2-Bu yeni klasörün içine girin
-3-Klasörün içinde boş bir yere sağ tıklayıp "PowerShell Penceresini Buradan Açın" veya "Terminalde Aç" seçeneğini seçin
-terminale şu komutu yazıp entere basın
-git clone https://github.com/hkorates-droid/CodeBookStudio.git
+1. Masaüstünüzde boş bir yere sağ tıklayın ve "Yeni Klasör" oluşturup adını **Deneme_CodeBook** yapın.
+2. Bu yeni klasörün içine girin.
+3. Klasörün içinde boş bir yere sağ tıklayıp "PowerShell Penceresini Buradan Açın" veya "Terminalde Aç" seçeneğini seçin.
+
+Terminale şu komutu yazıp Enter'a basın:
+```bash
+git clone [https://github.com/hkorates-droid/CodeBookStudio.git](https://github.com/hkorates-droid/CodeBookStudio.git)
 
 terminale  şu komutu yazıp entere basın
 cd CodeBookStudio
 
-# Gerekli kütüphaneleri yüklemek için terminale şu komutu yazın
+Gerekli kütüphaneleri yüklemek için terminale şu komutu yazın
 pip install -r requirements.txt
 
-# Uygulamayı başlatın
+Uygulamayı başlatın
 python main.py
 
 
@@ -68,27 +70,28 @@ Enter the dist folder.
 
 Double-click CodeBook Studio.exe to launch the application instantly!
 
-Method 2: Run with Python (For Developers)
+---
+
+### 🇬🇧 İngilizce Bölümündeki Method 2'yi Şununla Değiştir:
+
+```markdown
+#### Method 2: Run with Python (For Developers)
 If you want to run or develop the project locally:
-
-Right-click on an empty space on your desktop and create a new folder named Test_CodeBook.
-
-Enter this new folder.
-
-Inside the folder, right-click on an empty space and select Open PowerShell Window Here or Open in Terminal.
+1. Right-click on an empty space on your desktop and create a new folder named **Test_CodeBook**.
+2. Enter this new folder.
+3. Inside the folder, right-click on an empty space and select "Open PowerShell Window Here" or "Open in Terminal".
 
 Type the following command in the terminal and press Enter:
-git clone https://github.com/hkorates-droid/CodeBookStudio.git
+```bash
+git clone [https://github.com/hkorates-droid/CodeBookStudio.git](https://github.com/hkorates-droid/CodeBookStudio.git)
 
 Then type the following command and press Enter:
 cd CodeBookStudio
-
 
 To install the required libraries, type:
 pip install -r requirements.txt
 
 Finally, start the application with:
 python main.py
-
 
 
