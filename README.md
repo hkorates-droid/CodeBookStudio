@@ -90,7 +90,7 @@ Install required libraries
 ```bash
 pip install -r requirements.txt
 ````
-```bash
 Start the application
+```bash
 python main.py
 ````
