@@ -1,11 +1,9 @@
-# 💻 CodeBook Studio
+### 🇹🇷  💻 CodeBook Studio
 
 **CodeBook Studio**, özellikle teknik kitap yazarları, akademisyenler ve öğretmenler için tasarlanmış; kaynak kodları Microsoft Word ve Adobe InDesign gibi kelime işlemcilere biçimlendirmesi korunmuş (RTF) tablolar halinde aktaran gelişmiş bir masaüstü kod biçimlendirme aracıdır.
 
 ---
-
-## 🇹🇷 TÜRKÇE AÇIKLAMA
-
+AÇIKLAMA
 ### 🌟 Öne Çıkan Özellikler
 * **Zengin RTF Tablo Çıktısı:** Kodlarınızı satır numaraları, zebra satır renklendirmesi ve özelleştirilebilir kenar boşlukları (padding) ile doğrudan Word/InDesign uyumlu RTF formatına dönüştürür.
 * **Akıllı Dil Algılama:** Yazdığınız kodu analiz ederek hangi programlama diline ait olduğunu otomatik tespit eder.
@@ -26,20 +24,26 @@
 
 #### Yöntem 2: Python ile Çalıştırma (Geliştiriciler İçin)
 Projeyi yerelde çalıştırmak veya geliştirmek isterseniz:
-# Depoyu klonlayın
-git clone [https://github.com/hkorates-droid/CodeBookStudio.git](https://github.com/hkorates-droid/CodeBookStudio.git)
+1-Masaüstünüzde boş bir yere sağ tıklayın ve "Yeni Klasör" oluşturup adını Deneme_CodeBook yapın.
+2-Bu yeni klasörün içine girin
+3-Klasörün içinde boş bir yere sağ tıklayıp "PowerShell Penceresini Buradan Açın" veya "Terminalde Aç" seçeneğini seçin
+terminale şu komutu yazıp entere basın
+git clone https://github.com/hkorates-droid/CodeBookStudio.git
+
+terminale  şu komutu yazıp entere basın
 cd CodeBookStudio
 
-# Gerekli kütüphaneleri yükleyin
+# Gerekli kütüphaneleri yüklemek için terminale şu komutu yazın
 pip install -r requirements.txt
 
 # Uygulamayı başlatın
 python main.py
 
 
+### 🇬🇧 💻 CodeBook Studio
+CodeBook Studio is an advanced desktop code formatting tool designed especially for technical book authors, academics, and teachers. It exports source code into richly formatted RTF tables that preserve styling and can be directly used in Microsoft Word and Adobe InDesign.
 
-
-🇬🇧 English Description
+DESCRIPTION
 🌟 Key Features
 Rich RTF Table Output: Converts your code into Word/InDesign-compatible RTF format with line numbers, zebra row coloring, and customizable padding.
 
@@ -67,14 +71,23 @@ Double-click CodeBook Studio.exe to launch the application instantly!
 Method 2: Run with Python (For Developers)
 If you want to run or develop the project locally:
 
-# Clone the repository
-git clone [https://github.com/hkorates-droid/CodeBookStudio.git](https://github.com/hkorates-droid/CodeBookStudio.git)
+Right-click on an empty space on your desktop and create a new folder named Test_CodeBook.
+
+Enter this new folder.
+
+Inside the folder, right-click on an empty space and select Open PowerShell Window Here or Open in Terminal.
+
+Type the following command in the terminal and press Enter:
+git clone https://github.com/hkorates-droid/CodeBookStudio.git
+
+Then type the following command and press Enter:
 cd CodeBookStudio
 
-# Install required libraries
+
+To install the required libraries, type:
 pip install -r requirements.txt
 
-# Start the application
+Finally, start the application with:
 python main.py
 
 
