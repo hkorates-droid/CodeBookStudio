@@ -1,50 +1,49 @@
-# 💻 CodeBook Studio
+💻 CodeBook Studio
+CodeBook Studio, teknik kitap yazarları, akademisyenler ve öğretmenler için geliştirilmiş; kaynak kodları Microsoft Word ve Adobe InDesign gibi kelime işlemcilere biçimlendirmesi korunmuş (RTF) tablolar halinde aktaran masaüstü kod biçimlendirme aracıdır.
 
-**CodeBook Studio**, özellikle teknik kitap yazarları, akademisyenler ve öğretmenler için tasarlanmış; kaynak kodları Microsoft Word ve Adobe InDesign gibi kelime işlemcilere biçimlendirmesi korunmuş (RTF) tablolar halinde aktaran gelişmiş bir masaüstü kod biçimlendirme aracıdır.
+🇹🇷 Türkçe Açıklama
+🌟 Öne Çıkan Özellikler
+Zengin RTF Tablo Çıktısı: Kodlarınızı satır numaraları, zebra satır renklendirmesi ve özelleştirilebilir kenar boşlukları (padding) ile doğrudan Word/InDesign uyumlu RTF formatına dönüştürür.
 
----
+Akıllı Dil Algılama: Yazdığınız kodu analiz ederek hangi programlama diline ait olduğunu otomatik tespit eder.
 
-## 🇹🇷 Türkçe Açıklama
+Özel Temalar: Ders kitapları ve teknik yayın standartlarına uygun, göz yormayan özel renk temaları (Örn: Maarif Pastel).
 
-### 🌟 Öne Çıkan Özellikler
-* **Zengin RTF Tablo Çıktısı:** Kodlerinizi satır numaraları, zebra satır renklendirmesi ve özelleştirilebilir kenar boşlukları (padding) ile doğrudan Word/InDesign uyumlu RTF formatına dönüştürür.
-* **Akıllı Dil Algılama:** Yazdığınız kodu analiz ederek hangi programlama diline ait olduğunu otomatik tespit eder.
-* **Özel Temalar:** Ders kitapları ve teknik yayın standartlarına uygun, göz yormayan özel renk temaları (Örn: *Maarif Pastel*).
-* **Kolay Kurulum:** Kodlama bilmeyen kullanıcılar için derlenmiş `.exe` sürümüyle doğrudan çalıştırılabilir.
+Kolay Kurulum: Kodlama bilmeyen kullanıcılar için derlenmiş .exe sürümüyle doğrudan çalıştırılabilir.
 
-### 🛠️ Teknik Altyapı
-* **Arayüz:** PySide6 (Qt framework)
-* **Syntax Highlighter:** Pygments kütüphanesi
-* **Platform:** Windows (Doğrudan `.exe` olarak çalıştırılabilir)
+🛠️ Teknik Altyapı
+Arayüz: PySide6 (Qt framework)
 
-### 🚀 Kurulum ve Kullanım
+Syntax Highlighter: Pygments kütüphanesi
 
-#### Yöntem 1: Doğrudan Çalıştırın (Derlemeden)
-1. Bu depoyu ZIP olarak indirin veya bilgisayarınıza klonlayın.
-2. `dist` klasörünün içine girin.
-3. **CodeBook Studio.exe** dosyasına çift tıklayarak uygulamayı anında başlatın!
+Platform: Windows (Doğrudan .exe olarak çalıştırılabilir)
 
-#### Yöntem 2: Python ile Çalıştırma (Geliştiriciler İçin)
+🚀 Kurulum ve Kullanım
+Yöntem 1: Doğrudan Çalıştırın (Derlemeden)
+Bu depoyu ZIP olarak indirin veya bilgisayarınıza klonlayın.
+
+dist klasörünün içine girin.
+
+CodeBook Studio.exe dosyasına çift tıklayarak uygulamayı başlatın.
+
+Yöntem 2: Python ile Çalıştırma (Geliştiriciler İçin)
 Projeyi yerelde çalıştırmak veya geliştirmek isterseniz:
-1. Masaüstünüzde boş bir yere sağ tıklayın ve "Yeni Klasör" oluşturup adını **Deneme_CodeBook** yapın.
-2. Bu yeni klasörün içine girin.
-3. Klasörün içinde boş bir yere sağ tıklayıp "PowerShell Penceresini Buradan Açın" veya "Terminalde Aç" seçeneğini seçin.
 
-Terminale şu komutu yazıp Enter'a basın:
-```bash
-git clone [https://github.com/hkorates-droid/CodeBookStudio.git](https://github.com/hkorates-droid/CodeBookStudio.git)
-Ardından şu komutu yazıp Enter'a basın:
+# Masaüstünüzde yeni bir klasör oluşturun
+mkdir Test_CodeBook
+cd Test_CodeBook
 
+# Depoyu klonlayın
+git clone https://github.com/hkorates-droid/CodeBookStudio.git
 cd CodeBookStudio
-Gerekli kütüphaneleri yüklemek için terminale şu komutu yazın:
 
+# Gerekli kütüphaneleri yükleyin
 pip install -r requirements.txt
-Uygulamayı başlatın:
 
+# Uygulamayı başlatın
 python main.py
-🇬🇧 English Description
-CodeBook Studio is an advanced desktop code formatting tool designed especially for technical book authors, academics, and teachers. It exports source code into richly formatted RTF tables that preserve styling and can be directly used in Microsoft Word and Adobe InDesign.
 
+🇬🇧 English Description
 🌟 Key Features
 Rich RTF Table Output: Converts your code into Word/InDesign-compatible RTF format with line numbers, zebra row coloring, and customizable padding.
 
@@ -67,31 +66,21 @@ Download this repository as ZIP or clone it to your computer.
 
 Enter the dist folder.
 
-Double-click CodeBook Studio.exe to launch the application instantly!
+Double-click CodeBook Studio.exe to launch the application instantly.
 
 Method 2: Run with Python (For Developers)
 If you want to run or develop the project locally:
+# Create a new folder on your desktop
+mkdir Test_CodeBook
+cd Test_CodeBook
 
-Right-click on an empty space on your desktop and create a new folder named Test_CodeBook.
-
-Enter this new folder.
-
-Inside the folder, right-click on an empty space and select "Open PowerShell Window Here" or "Open in Terminal".
-
-Type the following command in the terminal and press Enter:
-
-Bash
-git clone [https://github.com/hkorates-droid/CodeBookStudio.git](https://github.com/hkorates-droid/CodeBookStudio.git)
-
-Then type the following command and press Enter:
-
-Bash
+# Clone the repository
+git clone https://github.com/hkorates-droid/CodeBookStudio.git
 cd CodeBookStudio
-To install the required libraries, type:
 
-Bash
+# Install required libraries
 pip install -r requirements.txt
-Finally, start the application with:
 
-Bash
+# Start the application
 python main.py
+
