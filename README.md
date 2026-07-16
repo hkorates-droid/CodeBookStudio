@@ -46,9 +46,10 @@ cd CodeBookStudio
 pip install -r requirements.txt
  ````
 
-
 #### Uygulamayı başlatın
+```bash
 python main.py
+ ````
 
 
 ## 🇬🇧 English Description
