@@ -34,8 +34,10 @@ mkdir Test_CodeBook
 cd Test_CodeBook
 ````
 #### Depoyu klonlayın
+```bash
 git clone https://github.com/hkorates-droid/CodeBookStudio.git
-cd CodeBookStudio
+````
+```bash cd CodeBookStudio ````
 
 #### Gerekli kütüphaneleri yükleyin
 pip install -r requirements.txt
